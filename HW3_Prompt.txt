@@ -1,0 +1,20 @@
+1. (5 points) There are 2 different binary trees with 2 nodes if we don't care about the key values in them but only their shapes we get:
+
+      o          o
+     /    and    \
+   o                o
+
+    Use recursion to argue that there are 5 different binary trees with 3 nodes.
+    How many different binary trees with 4 nodes are there ? Justify your answer.
+
+2. (10 points) Write a C++ function that takes in an arithmetic expression in prefix notation and converts it into a binary tree, such that each operation is stored in a node whose left subtree stores the left operand, and whose right subtree stores the right operand.
+
+3. (15 points) Complete the bag6 class implementation (i.e. complete the following functions in the bag6.template for 5 points each):
+
+template <class Item>
+typename bag<Item>::size_type bag<Item>::count(const Item& target) const
+template <class Item>
+void bag<Item>::insert(const Item& entry)
+template <class Item>
+typename bag<Item>::size_type bst_remove_all
+4. (10 points) Peer Review
